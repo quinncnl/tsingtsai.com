@@ -330,20 +330,22 @@ only screen and (min-device-width : 320px) and (max-device-width : 480px) and (w
 }
 
 .screens p {
-	height: 360px;
+    height: 360px;
 }
 
 
-.screens .p01 { background-image: url(../screens/01.jpeg); }
-.screens .p02 { background-image: url(../screens/02.jpeg); }
-.screens .p03 { background-image: url(../screens/03.jpeg); }
-.screens .p04 { background-image: url(../screens/04.jpeg); }
-.screens .p11 { background-image: url(../screens/11.jpeg); }
-.screens .p12 { background-image: url(../screens/12.jpeg); }
+
+.screens .p01 { background-image: url(img/s1.jpg); }
+.screens .p02 { background-image: url(img/p1.jpg); }
+.screens .p03 { background-image: url(img/s2.jpg); }
+.screens .p04 { background-image: url(img/p2.jpg); }
+.screens .p11 { background-image: url(img/pa1.jpg); }
+.screens .p12 { background-image: url(img/pa2.jpg); }
+
 
 .content ul li.left {
-	background-position: 2px -2px;
-	background-repeat: no-repeat;
+    background-position: 2px -2px;
+    background-repeat: no-repeat;
 	background-size: 30px 20px;
 	background-image: url(../img/left.png);
 }
