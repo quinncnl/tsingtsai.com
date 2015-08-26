@@ -333,11 +333,9 @@ only screen and (min-device-width : 320px) and (max-device-width : 480px) and (w
     height: 360px;
 }
 
-
-
 .screens .p01 { background-image: url(img/s1.jpg); }
-.screens .p02 { background-image: url(img/p1.jpg); }
-.screens .p03 { background-image: url(img/s2.jpg); }
+.screens .p02 { background-image: url(img/s2.jpg); }
+.screens .p03 { background-image: url(img/s3.jpg); }
 .screens .p04 { background-image: url(img/p2.jpg); }
 .screens .p11 { background-image: url(img/pa1.jpg); }
 .screens .p12 { background-image: url(img/pa2.jpg); }
