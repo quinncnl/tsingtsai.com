@@ -23,15 +23,12 @@ h1 span {
 }
 
 h1 {
-	font-size: 48px;
-	text-align: center;
-	margin-top: 100px;
-	padding-top: 120px;
-	margin-bottom: 0;
-	padding-bottom: 0;
+
+    margin-top:100px;
+    height: 300px;
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-size: 100px 100px;
+	background-size: 300px 300px;
 	background-image: url(img/logoweb.png);
 }
 
@@ -111,28 +108,6 @@ h3 + ul {
 }
 
 
-.screens {
-	overflow: hidden;
-	white-space: nowrap;
-}
-
-.screens p {
-	text-align: center;
-	display: block;
-	margin: 0;
-	padding: 0 20px;
-	overflow: scroll;
-	overflow-y: hidden;
-	overflow-x: scroll;
-	-webkit-overflow-scrolling: touch;
-}
-
-.screens span {
-	display: inline-block;
-	margin: 20px 10px;
-	border-radius: 2px;
-	box-shadow: rgba(0,0,0,0.5) 0px 0px 3px;
-}
 
 #navigation-container {
 	height: 30px;
