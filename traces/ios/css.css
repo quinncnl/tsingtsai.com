@@ -32,6 +32,10 @@ h1 {
 	background-image: url(img/logoweb.png);
 }
 
+img {
+    border: 0px;
+}
+
 h1+p {
 	margin: -10px 0 30px 0;
 	padding: 0;
@@ -86,19 +90,9 @@ h3 + ul {
 	padding: 0;
 	text-align: center;
 }
-
 .appstore a {
-	display: block;
-	margin:0 auto;
-	overflow: hidden;
-	font-size: 0;
-	line-height: 0;
-	height: 38px;
-	text-decoration: none;
-	border: 0;
-	background-image: url(img/appstore.png);
-	background-color: rgb(231,230,225);
-	border-radius: 4px;
+    text-decoration: none;
+    border-bottom: none;
 }
 
 .appstore span {
@@ -106,8 +100,6 @@ h3 + ul {
 	opacity: 1;
 	color:#DAD0DB;
 }
-
-
 
 #navigation-container {
 	height: 30px;
