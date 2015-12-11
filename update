@@ -1,0 +1,5 @@
+rm -r blog
+cp -r blog_jekyll/_site blog
+git add .
+git commit -am "up"
+git push
