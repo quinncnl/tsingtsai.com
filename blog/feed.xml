@@ -6,9 +6,35 @@
 </description>
     <link>http://www.tsingtsai.com/blog/</link>
     <atom:link href="http://www.tsingtsai.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Dec 2015 20:01:45 +0800</pubDate>
-    <lastBuildDate>Fri, 11 Dec 2015 20:01:45 +0800</lastBuildDate>
+    <pubDate>Fri, 11 Dec 2015 20:54:22 +0800</pubDate>
+    <lastBuildDate>Fri, 11 Dec 2015 20:54:22 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>About This Blog</title>
+        <description>&lt;p&gt;I started this blog mainly for two reasons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Publish news and tips about Traces app&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Share experiences&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can use RSS to keep yourself informed.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 12 Dec 2015 04:14:47 +0800</pubDate>
+        <link>http://www.tsingtsai.com/blog/jekyll/update/2015/12/about-this-blog</link>
+        <guid isPermaLink="true">http://www.tsingtsai.com/blog/jekyll/update/2015/12/about-this-blog</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Style Test</title>
@@ -226,8 +252,8 @@ The &lt;u&gt;u element&lt;/u&gt; example&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 10 Dec 2014 00:00:00 +0800</pubDate>
-        <link>http://www.tsingtsai.com/blog/2014/12/10/style-test.html</link>
-        <guid isPermaLink="true">http://www.tsingtsai.com/blog/2014/12/10/style-test.html</guid>
+        <link>http://www.tsingtsai.com/blog/2014/12/style-test</link>
+        <guid isPermaLink="true">http://www.tsingtsai.com/blog/2014/12/style-test</guid>
         
         
       </item>
@@ -250,13 +276,9 @@ The &lt;u&gt;u element&lt;/u&gt; example&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 05 Dec 2014 04:14:47 +0800</pubDate>
-        <link>http://www.tsingtsai.com/blog/jekyll/update/2014/12/05/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://www.tsingtsai.com/blog/jekyll/update/2014/12/05/welcome-to-jekyll.html</guid>
+        <link>http://www.tsingtsai.com/blog/2014/12/welcome-to-jekyll</link>
+        <guid isPermaLink="true">http://www.tsingtsai.com/blog/2014/12/welcome-to-jekyll</guid>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
