@@ -63,16 +63,28 @@
 
     </div>
 
-    <menu>
-      <a href="" id="btn_share" class="btn" title="Share">
-        <span aria-hidden="true" data-icon="S"></span>
-        <strong>Share</strong>
-      </a>
-      <a href="http://twitter.com/share?text=About This Blog&url=/jekyll/update/2015/12/about-this-blog" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" id="btn_comment" class="btn" target="_blank">
-        <span aria-hidden="true" data-icon="C"></span> Comment on Twitter
-      </a>
-    </menu>
+<div id="disqus_thread"></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
 
+s.src = '//strongwillow.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
     <footer role="contentinfo" class='post-footer'>
     <div class="inner">
@@ -106,90 +118,8 @@
 </footer>
 
 
+    
 </article>
-
-<div id="share_modal">
-    <div class="wrap">
-        <div class="inner">
-            <header>
-                Share
-                <a href="" class="close" title="Close">&times;</a>
-            </header>
-
-            <div class="roon-share-links">
-                <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-                <div id="fb-elems">
-                    <div id="fb-root"></div>
-                    <script>(function(d, s, id) {
-                    var js, fjs = d.getElementsByTagName(s)[0];
-                    if (d.getElementById(id)) return;
-                    js = d.createElement(s); js.id = id;
-                    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=463438580397968";
-                    fjs.parentNode.insertBefore(js, fjs);
-                    }(document, 'script', 'facebook-jssdk'));</script>
-                    <div class="fb-like" data-send="false" data-layout="button_count" data-width="110" data-show-faces="false" data-font="arial"></div>
-                </div>
-
-                <div id="pinit-btn">
-                    <a href="//pinterest.com/pin/create/button/?url=/blog/jekyll/update/2015/12/about-this-blog&amp;description=About This Blog-Tsing's Blog " data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png"></a>
-                    <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<script>
-window.onload = function () {
-  reading_time();
-}
-function get_text(el) {
-  ret = "";
-  var length = el.childNodes.length;
-  for(var i = 0; i < length; i++) {
-    var node = el.childNodes[i];
-    if(node.nodeType != 8) {
-      ret += node.nodeType != 1 ? node.nodeValue : get_text(node);
-    }
-  }
-  return ret;
-}
-function reading_time () {
-  var post_content = document.getElementById('js-post-content');
-  if (post_content) {
-    var words = get_text(post_content),
-      count = words.split(/\s+/).length,
-    read_time = Math.ceil((count / 150)),
-        read_time_node = document.createTextNode(read_time + ' min read');
-    document.getElementById('js-reading-time').appendChild(read_time_node);
-  }
-}
-$(function(){
-  var share_modal = $("#share_modal"),
-  update_social_links = true;
-
-  $("#btn_share").click(function(){
-    var that = $(this);
-    share_modal.fadeIn(200);
-    return false;
-  });
-
-  share_modal.click(function(e){
-    if (e.target.className == "wrap" || e.target.id == "share_modal") {
-      share_modal.fadeOut(200);
-    }
-    return false;
-  });
-
-  share_modal.find("div.inner > header > a.close").click(function(){
-    share_modal.fadeOut(200);
-    return false;
-  });
-});
-</script>
 
 
     
