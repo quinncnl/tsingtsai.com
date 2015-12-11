@@ -5,8 +5,8 @@
     <description></description>
     <link>http://www.tsingtsai.com/blog/</link>
     <atom:link href="http://www.tsingtsai.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Dec 2015 21:21:12 +0800</pubDate>
-    <lastBuildDate>Fri, 11 Dec 2015 21:21:12 +0800</lastBuildDate>
+    <pubDate>Fri, 11 Dec 2015 21:22:08 +0800</pubDate>
+    <lastBuildDate>Fri, 11 Dec 2015 21:22:08 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -25,13 +25,9 @@
 &lt;p&gt;You can use RSS to keep yourself informed.&lt;/p&gt;
 </description>
         <pubDate>Sat, 12 Dec 2015 04:14:47 +0800</pubDate>
-        <link>http://www.tsingtsai.com/blog/jekyll/update/2015/12/about-this-blog</link>
-        <guid isPermaLink="true">http://www.tsingtsai.com/blog/jekyll/update/2015/12/about-this-blog</guid>
+        <link>http://www.tsingtsai.com/blog/2015/12/about-this-blog</link>
+        <guid isPermaLink="true">http://www.tsingtsai.com/blog/2015/12/about-this-blog</guid>
         
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
