@@ -1,44 +1,15 @@
----
-layout: default
-body_class: "home-template user"
----
-{% include header.html %}
-
-<div class="page-content">
-  <div class="wrapper">
-    <div class="home">
-      {% for post in site.posts %}
-      <article class="{%comment%}post_class{%endcomment%}">
-
-          {% if post.image %}
-              <div class="image-holder show">
-                <a href="{{ post.url | prepend: site.baseurl }}" class="inner" style="background-image: url('{{ site.baseurl }}/content/images/{{ post.image }}');">
-                  <img src="{{ site.baseurl }}/content/images/{{ post.image }}">
-              </a>
-            </div>
-          {% endif %}
-
-          <div class="meta">
-            <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%B %-d, %Y" }}</a>
-            </time>
-          </div>
-
-          <header>
-              <h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-          </header>
-
-          <div class="text">
-              <p>{{ post.excerpt }}</p>
-              <a href="{{ post.url | prepend: site.baseurl }}" class="readmore">Continue Reading</a>
-          </div>
-      </article>
-      {% endfor %}
-
-      {% include pagination.html %}
-
-    </div>
-  </div>
-</div>
-
-{% include footer.html %}
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="1;url=http://www.tsingtsai.com/traces/ios">
+        <script type="text/javascript">
+            window.location.href = "http://www.tsingtsai.com/traces/ios"
+        </script>
+        <title>Traces iOS</title>
+    </head>
+    <body>
+        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
+        If you are not redirected automatically, follow the <a href='http://www.tsingtsai.com/traces/ios'>Traces iOS</a>
+    </body>
+</html>
