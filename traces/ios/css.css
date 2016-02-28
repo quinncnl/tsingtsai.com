@@ -1,6 +1,5 @@
 html,body {
     height:100%;
-font-family: 'Playfair Display', serif;
 
 }
 .special,.special .jumbotron {height:100%;}
@@ -19,13 +18,18 @@ font-family: 'Playfair Display', serif;
 
 h1 {
     font-weight: bold;
+    font-family: 'Playfair Display', serif;
+
 }
 
 h2 {
+    font-family: 'Playfair Display', serif;
+
     font-weight: bold;
     color: #333;
 }
 
 .lead {
+font-family: 'Playfair Display', serif;
 
 }
