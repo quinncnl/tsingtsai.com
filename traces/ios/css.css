@@ -12,7 +12,7 @@ html,body {
     background-size: cover;
     overflow: hidden;
 
-    color: gray;
+    color: #70176E;
     text-align: center;
 }
 
@@ -20,16 +20,18 @@ h1 {
     font-weight: bold;
     font-family: 'Playfair Display', serif;
 
+
 }
 
 h2 {
     font-family: 'Playfair Display', serif;
 
     font-weight: bold;
-    color: #333;
+    color: #555;
 }
 
 .lead {
-font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
+    color: #777;
 
 }
