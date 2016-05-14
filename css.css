@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-image: url(cat.jpg);
+
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -171,5 +171,27 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+
+.grid-item { width: 512px; }
+.grid-item2 { width: 1024px; }
+
+img {
+    max-width:98%;
+    max-height:95%;
+}
+
+h1.photography {
+    color: black;
+    text-align: left;
 }
 
