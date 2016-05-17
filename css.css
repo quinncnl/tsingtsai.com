@@ -200,6 +200,20 @@ h1.photography > a {
     font-width: 700;
 }
 
+span.small {
+    margin-left: 50px;
+}
+span.small > a {
+    color: #111;
+    text-decoration: none;
+    font-family: 'baskerville', cursive;
+    font-size: 14px;
+    font-weight: normal;
+}
+span.small > a:hover {
+    color: #666;
+}
+
 .container {
     max-width:900px;
     min-width: 50%;
