@@ -190,11 +190,12 @@ h1.homepage {
 }
 
 h1.photography {
+    color: white;
     text-align: center;
 }
 
 h1.photography > a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-family: 'Fredericka the Great', cursive;
     font-width: 700;
@@ -204,14 +205,14 @@ span.small {
     margin-left: 50px;
 }
 span.small > a {
-    color: #111;
+    color: white;
     text-decoration: none;
     font-family: 'baskerville', cursive;
     font-size: 14px;
     font-weight: normal;
 }
 span.small > a:hover {
-    color: #666;
+    color: #ccc;
 }
 
 .container {
@@ -303,4 +304,20 @@ img {
 }
 .container {
     margin: 0 auto 0 auto;
+}
+
+body.photography {
+    background: url(footer_lodyas.png);
+    background-attachment: fixed;
+
+}
+p.photography {
+    color: #eee;
+}
+
+img, iframe {
+-webkit-box-shadow: 0px 0px 70px -10px rgba(0,0,0,0.81);
+-moz-box-shadow: 0px 0px 70px -10px rgba(0,0,0,0.81);
+box-shadow: 0px 0px 70px -10px rgba(0,0,0,0.81);
+margin: 30px 0 10px 0;
 }

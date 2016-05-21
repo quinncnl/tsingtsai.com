@@ -10,14 +10,16 @@
 
     <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
     
+    <script type='text/javascript' src='https://500px.com/embed.js'></script>
+    
   </head>
-  <body>
+  <body class="photography" onload="addStyle()">
 
     <div class="container">
 
       <h1 class="photography"><a href="/">Tsing Tsai</a><span class="small"><a href="https://500px.com/strongwillow">500px</a> <a href="https://society6.com/strongwillow">society6</a></span></h1>
 
-      <p>
+      <p class="photography">
 	Capturing the great moments in life.
       </p>
 
@@ -84,9 +86,15 @@
   <a href='https://500px.com/photo/153874487/lavender-at-valensole-by-tsing-tsai' alt='Lavender at Valensole by Tsing Tsai on 500px.com'></a>
 </div>
 
-      <script type='text/javascript' src='https://500px.com/embed.js'></script>
-
-      
     </div>
   </body>
 </html>
+
+<script>
+  function addStyle() {
+
+  var d = document.getElementByName("img");
+  d.className += " photography";
+
+  }
+  </script>
